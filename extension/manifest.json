@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Note Maker",
+  "description": "This extension saves a note and stores the site where it was made and the date it was saved.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "icon16.png"
+  }
+}
